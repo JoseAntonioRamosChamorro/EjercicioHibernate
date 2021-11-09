@@ -31,7 +31,7 @@ public class Desafio1Application implements CommandLineRunner{
 		cliente2.setDni("187654329");	
 		clienteServiceI.insertar(cliente2);
 
-			//MOdificar
+		//Modificar
 		cliente2.setDni("987654321");
 		clienteServiceI.modificar(cliente2);
 		//Conssultapor ID
